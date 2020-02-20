@@ -6,10 +6,10 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "user")
-class User: BaseEntity() {
+class User : BaseEntity() {
 
-    @Column
-    var email: String? = null
+    @Column(name = "email", nullable = false)
+    var email: String = ""
 
     @Column(name = "user_name")
     var userName: String? = null

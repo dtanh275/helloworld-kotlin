@@ -5,7 +5,7 @@ import javax.persistence.*
 
 @Entity
 @Table(name = "article")
-class Article: BaseEntity() {
+class Article : BaseEntity() {
 
     @Column
     var slug: String? = null
