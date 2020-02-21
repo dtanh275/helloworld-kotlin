@@ -14,7 +14,6 @@ CREATE TABLE article (
     id INTEGER  IDENTITY PRIMARY KEY,
     slug VARCHAR(125),
     title VARCHAR(255),
-    description VARCHAR(255),
     body TEXT,
     created_at DATE,
     updated_at DATE,
