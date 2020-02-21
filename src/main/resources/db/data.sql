@@ -1,1 +1,1 @@
-INSERT INTO user VALUES (1, 'roman.taluyev@gmail.com', 'Roman Taluyev', '123', 'Lead Educator, Web Development', 'https://cdn-images-1.medium.com/fit/c/200/200/1*tWz5tlpmBPNXyAxE72HRvw.jpeg');
+INSERT INTO user VALUES (1, 'roman.taluyev@gmail.com', 'Roman Taluyev', /*123*/ '$2y$08$CuFbuH2POXjfmewtj8Vse.nSHNOflNckDpo0SI0xJCXG2S4V7.vky', 'Lead Educator, Web Development', 'https://cdn-images-1.medium.com/fit/c/200/200/1*tWz5tlpmBPNXyAxE72HRvw.jpeg');

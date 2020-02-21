@@ -15,7 +15,7 @@ class User : BaseEntity() {
     var userName: String? = null
 
     @Column
-    var password: String? = null
+    var password: String = ""
 
     @Column
     var bio: String? = null

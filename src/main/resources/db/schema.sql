@@ -5,7 +5,7 @@ CREATE TABLE user (
     id INTEGER IDENTITY PRIMARY KEY,
     email VARCHAR(125) NOT NULL,
     user_name VARCHAR(125),
-    password VARCHAR(30),
+    password VARCHAR(255),
     bio VARCHAR(255),
     avatar VARCHAR(255)
 );
