@@ -23,5 +23,10 @@ class JwtService {
             .signWith(SignatureAlgorithm.HS512, secret)
             .compact()
 
+    fun getSubFromToken(token: String) = Jwts.parser()
+            .setSigningKey(secret)
+            .parseClaimsJws(token)
+            .body.subject
+
     private fun expire() = Date(System.currentTimeMillis() + sessionTime * 1000)
 }
