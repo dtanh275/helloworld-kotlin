@@ -8,13 +8,10 @@ import javax.persistence.*
 class Article : BaseEntity() {
 
     @Column
-    var slug: String? = null
+    var slug: String = ""
 
     @Column
     var title: String? = null
-
-    @Column
-    var description: String? = null
 
     @Column
     var body: String? = null

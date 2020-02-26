@@ -2,15 +2,12 @@ package com.donkey.training.kotlin.realworld.services
 
 import com.donkey.training.kotlin.realworld.repositories.UserRepository
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
-import org.springframework.security.core.context.SecurityContext
 import org.springframework.security.core.context.SecurityContextHolder
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource
 import org.springframework.stereotype.Service
 import org.springframework.util.StringUtils
 import org.springframework.web.filter.OncePerRequestFilter
-import java.lang.Exception
-import java.util.logging.Logger
 import javax.servlet.FilterChain
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse

@@ -1,6 +1,5 @@
 package com.donkey.training.kotlin.realworld.services
 
-import com.donkey.training.kotlin.realworld.entities.User
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
 import org.springframework.beans.factory.annotation.Value
